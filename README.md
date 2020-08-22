@@ -1,2 +1,2 @@
-# Templates.CSharp
-Template repository for C# projects.
+# Abstractions.EventProducer
+Boilerplate abstractions for all event producing operations in C#.
