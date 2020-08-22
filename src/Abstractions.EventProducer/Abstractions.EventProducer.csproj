@@ -3,6 +3,15 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <Nullable>enable</Nullable>
+
+        <!-- NUGET METADATA -->
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <VersionSuffix>alpha</VersionSuffix>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Authors>José Franco</Authors>
+        <RepositoryUrl>https://github.com/josepfranco/Abstractions.EventProducer</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <!--                -->
     </PropertyGroup>
 
     <ItemGroup>
