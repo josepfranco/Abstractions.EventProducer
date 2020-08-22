@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Abstractions.EventProducer.Exceptions;
 using Abstractions.Events.Models;
 
@@ -14,5 +15,12 @@ namespace Abstractions.EventProducer
         /// <param name="event">the preemptively built event object</param>
         /// <exception cref="ProducerException">if any operation failed during the append</exception>
         void Produce(Event @event);
+
+        /// <summary>
+        /// Appends all the events (in order) unto the event store
+        /// </summary>
+        /// <param name="events">the preemptively built ordered list of event object</param>
+        /// <exception cref="ProducerException">if any operation failed during the append</exception>
+        void ProduceMany(IList<Event> events);
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Abstractions.EventProducer.Exceptions;
@@ -18,5 +19,13 @@ namespace Abstractions.EventProducer
         /// <exception cref="ProducerException">if any operation failed during the append</exception>
         /// <returns>a task</returns>
         Task ProduceAsync(Event @event, CancellationToken token = default);
+
+        /// <summary>
+        /// Appends all the events (in order) unto the event store asynchronously
+        /// </summary>
+        /// <param name="events">the preemptively built ordered list of event object</param>
+        /// <param name="token">the cancellation token</param>
+        /// <exception cref="ProducerException">if any operation failed during the append</exception>
+        Task ProduceManyAsync(IList<Event> events, CancellationToken token = default);
     }
 }
