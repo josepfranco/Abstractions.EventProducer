@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace Abstractions.EventProducer
     /// <summary>
     /// Contract for producing an event unto an event store asynchronously
     /// </summary>
-    public interface IProducerAsync
+    public interface IProducerAsync : IDisposable
     {
         /// <summary>
         /// Appends an event unto the event store asynchronously

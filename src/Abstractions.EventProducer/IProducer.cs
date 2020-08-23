@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Abstractions.EventProducer.Exceptions;
 using Abstractions.Events.Models;
@@ -7,7 +8,7 @@ namespace Abstractions.EventProducer
     /// <summary>
     /// Contract for producing an event unto an event store
     /// </summary>
-    public interface IProducer
+    public interface IProducer : IDisposable
     {
         /// <summary>
         /// Appends an event unto the event store
