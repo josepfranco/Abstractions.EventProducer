@@ -16,7 +16,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Abstractions.Events" Version="2.0.0-ci-3" />
+      <PackageReference Include="Abstractions.Events" Version="2.0.0-ci-4" />
     </ItemGroup>
 
 </Project>
