@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Abstractions.EventProducer.Exceptions;
-using Abstractions.Events.Models;
+using Abstractions.Events;
 
 namespace Abstractions.EventProducer
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Abstractions.EventProducer.Exceptions;
-using Abstractions.Events.Models;
+using Abstractions.Events;
 
 namespace Abstractions.EventProducer
 {
