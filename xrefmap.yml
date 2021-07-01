@@ -1,0 +1,116 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Abstractions.EventProducer
+  name: Abstractions.EventProducer
+  href: api/Abstractions.EventProducer.html
+  commentId: N:Abstractions.EventProducer
+  fullName: Abstractions.EventProducer
+  nameWithType: Abstractions.EventProducer
+- uid: Abstractions.EventProducer.Exceptions
+  name: Abstractions.EventProducer.Exceptions
+  href: api/Abstractions.EventProducer.Exceptions.html
+  commentId: N:Abstractions.EventProducer.Exceptions
+  fullName: Abstractions.EventProducer.Exceptions
+  nameWithType: Abstractions.EventProducer.Exceptions
+- uid: Abstractions.EventProducer.Exceptions.ProducerException
+  name: ProducerException
+  href: api/Abstractions.EventProducer.Exceptions.ProducerException.html
+  commentId: T:Abstractions.EventProducer.Exceptions.ProducerException
+  fullName: Abstractions.EventProducer.Exceptions.ProducerException
+  nameWithType: ProducerException
+- uid: Abstractions.EventProducer.Exceptions.ProducerException.#ctor(System.Nullable{System.String})
+  name: ProducerException(Nullable<String>)
+  href: api/Abstractions.EventProducer.Exceptions.ProducerException.html#Abstractions_EventProducer_Exceptions_ProducerException__ctor_System_Nullable_System_String__
+  commentId: M:Abstractions.EventProducer.Exceptions.ProducerException.#ctor(System.Nullable{System.String})
+  name.vb: ProducerException(Nullable(Of String))
+  fullName: Abstractions.EventProducer.Exceptions.ProducerException.ProducerException(System.Nullable<System.String>)
+  fullName.vb: Abstractions.EventProducer.Exceptions.ProducerException.ProducerException(System.Nullable(Of System.String))
+  nameWithType: ProducerException.ProducerException(Nullable<String>)
+  nameWithType.vb: ProducerException.ProducerException(Nullable(Of String))
+- uid: Abstractions.EventProducer.Exceptions.ProducerException.#ctor(System.Nullable{System.String},System.Nullable{Exception})
+  name: ProducerException(Nullable<String>, Nullable<Exception>)
+  href: api/Abstractions.EventProducer.Exceptions.ProducerException.html#Abstractions_EventProducer_Exceptions_ProducerException__ctor_System_Nullable_System_String__System_Nullable_Exception__
+  commentId: M:Abstractions.EventProducer.Exceptions.ProducerException.#ctor(System.Nullable{System.String},System.Nullable{Exception})
+  name.vb: ProducerException(Nullable(Of String), Nullable(Of Exception))
+  fullName: Abstractions.EventProducer.Exceptions.ProducerException.ProducerException(System.Nullable<System.String>, System.Nullable<Exception>)
+  fullName.vb: Abstractions.EventProducer.Exceptions.ProducerException.ProducerException(System.Nullable(Of System.String), System.Nullable(Of Exception))
+  nameWithType: ProducerException.ProducerException(Nullable<String>, Nullable<Exception>)
+  nameWithType.vb: ProducerException.ProducerException(Nullable(Of String), Nullable(Of Exception))
+- uid: Abstractions.EventProducer.Exceptions.ProducerException.#ctor*
+  name: ProducerException
+  href: api/Abstractions.EventProducer.Exceptions.ProducerException.html#Abstractions_EventProducer_Exceptions_ProducerException__ctor_
+  commentId: Overload:Abstractions.EventProducer.Exceptions.ProducerException.#ctor
+  isSpec: "True"
+  fullName: Abstractions.EventProducer.Exceptions.ProducerException.ProducerException
+  nameWithType: ProducerException.ProducerException
+- uid: Abstractions.EventProducer.IProducer
+  name: IProducer
+  href: api/Abstractions.EventProducer.IProducer.html
+  commentId: T:Abstractions.EventProducer.IProducer
+  fullName: Abstractions.EventProducer.IProducer
+  nameWithType: IProducer
+- uid: Abstractions.EventProducer.IProducer.Produce(Event)
+  name: Produce(Event)
+  href: api/Abstractions.EventProducer.IProducer.html#Abstractions_EventProducer_IProducer_Produce_Event_
+  commentId: M:Abstractions.EventProducer.IProducer.Produce(Event)
+  fullName: Abstractions.EventProducer.IProducer.Produce(Event)
+  nameWithType: IProducer.Produce(Event)
+- uid: Abstractions.EventProducer.IProducer.Produce*
+  name: Produce
+  href: api/Abstractions.EventProducer.IProducer.html#Abstractions_EventProducer_IProducer_Produce_
+  commentId: Overload:Abstractions.EventProducer.IProducer.Produce
+  isSpec: "True"
+  fullName: Abstractions.EventProducer.IProducer.Produce
+  nameWithType: IProducer.Produce
+- uid: Abstractions.EventProducer.IProducer.ProduceMany(IList{Event})
+  name: ProduceMany(IList<Event>)
+  href: api/Abstractions.EventProducer.IProducer.html#Abstractions_EventProducer_IProducer_ProduceMany_IList_Event__
+  commentId: M:Abstractions.EventProducer.IProducer.ProduceMany(IList{Event})
+  name.vb: ProduceMany(IList(Of Event))
+  fullName: Abstractions.EventProducer.IProducer.ProduceMany(IList<Event>)
+  fullName.vb: Abstractions.EventProducer.IProducer.ProduceMany(IList(Of Event))
+  nameWithType: IProducer.ProduceMany(IList<Event>)
+  nameWithType.vb: IProducer.ProduceMany(IList(Of Event))
+- uid: Abstractions.EventProducer.IProducer.ProduceMany*
+  name: ProduceMany
+  href: api/Abstractions.EventProducer.IProducer.html#Abstractions_EventProducer_IProducer_ProduceMany_
+  commentId: Overload:Abstractions.EventProducer.IProducer.ProduceMany
+  isSpec: "True"
+  fullName: Abstractions.EventProducer.IProducer.ProduceMany
+  nameWithType: IProducer.ProduceMany
+- uid: Abstractions.EventProducer.IProducerAsync
+  name: IProducerAsync
+  href: api/Abstractions.EventProducer.IProducerAsync.html
+  commentId: T:Abstractions.EventProducer.IProducerAsync
+  fullName: Abstractions.EventProducer.IProducerAsync
+  nameWithType: IProducerAsync
+- uid: Abstractions.EventProducer.IProducerAsync.ProduceAsync(Event,CancellationToken)
+  name: ProduceAsync(Event, CancellationToken)
+  href: api/Abstractions.EventProducer.IProducerAsync.html#Abstractions_EventProducer_IProducerAsync_ProduceAsync_Event_CancellationToken_
+  commentId: M:Abstractions.EventProducer.IProducerAsync.ProduceAsync(Event,CancellationToken)
+  fullName: Abstractions.EventProducer.IProducerAsync.ProduceAsync(Event, CancellationToken)
+  nameWithType: IProducerAsync.ProduceAsync(Event, CancellationToken)
+- uid: Abstractions.EventProducer.IProducerAsync.ProduceAsync*
+  name: ProduceAsync
+  href: api/Abstractions.EventProducer.IProducerAsync.html#Abstractions_EventProducer_IProducerAsync_ProduceAsync_
+  commentId: Overload:Abstractions.EventProducer.IProducerAsync.ProduceAsync
+  isSpec: "True"
+  fullName: Abstractions.EventProducer.IProducerAsync.ProduceAsync
+  nameWithType: IProducerAsync.ProduceAsync
+- uid: Abstractions.EventProducer.IProducerAsync.ProduceManyAsync(IList{Event},CancellationToken)
+  name: ProduceManyAsync(IList<Event>, CancellationToken)
+  href: api/Abstractions.EventProducer.IProducerAsync.html#Abstractions_EventProducer_IProducerAsync_ProduceManyAsync_IList_Event__CancellationToken_
+  commentId: M:Abstractions.EventProducer.IProducerAsync.ProduceManyAsync(IList{Event},CancellationToken)
+  name.vb: ProduceManyAsync(IList(Of Event), CancellationToken)
+  fullName: Abstractions.EventProducer.IProducerAsync.ProduceManyAsync(IList<Event>, CancellationToken)
+  fullName.vb: Abstractions.EventProducer.IProducerAsync.ProduceManyAsync(IList(Of Event), CancellationToken)
+  nameWithType: IProducerAsync.ProduceManyAsync(IList<Event>, CancellationToken)
+  nameWithType.vb: IProducerAsync.ProduceManyAsync(IList(Of Event), CancellationToken)
+- uid: Abstractions.EventProducer.IProducerAsync.ProduceManyAsync*
+  name: ProduceManyAsync
+  href: api/Abstractions.EventProducer.IProducerAsync.html#Abstractions_EventProducer_IProducerAsync_ProduceManyAsync_
+  commentId: Overload:Abstractions.EventProducer.IProducerAsync.ProduceManyAsync
+  isSpec: "True"
+  fullName: Abstractions.EventProducer.IProducerAsync.ProduceManyAsync
+  nameWithType: IProducerAsync.ProduceManyAsync
